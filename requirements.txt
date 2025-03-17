@@ -1,4 +1,6 @@
 qdrant-client
 sentence-transformers
 google-generativeai
+fastapi
+uvicorn
 pandas
