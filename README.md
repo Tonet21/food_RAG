@@ -1,6 +1,6 @@
 # food_RAG
 
-
+```sql
 create table units (
   RecipeI smallint,
   Units text
@@ -40,3 +40,4 @@ insert into food (RecipeId, name, RecipeIngredientQuantities, units, RecipeIngre
 SELECT foodcom.recipeid, foodcom.name, foodcom.RecipeIngredientQuantities, units.units, foodcom.RecipeIngredientParts, foodcom.Calories, foodcom.FatContent, foodcom.CarbohydrateContent, foodcom.FiberContent, foodcom.proteinContent, foodcom.RecipeInstructions
 FROM foodcom
 JOIN units ON foodcom.recipeid = units.recipeid;
+```
