@@ -1,5 +1,7 @@
 # food_RAG
 
+before the Rag I will do some statistical analysis with pandas 
+
 ```sql
 create table units (
   RecipeI smallint,
